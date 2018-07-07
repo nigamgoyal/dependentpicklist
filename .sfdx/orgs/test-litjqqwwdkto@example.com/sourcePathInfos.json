@@ -2,14 +2,14 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList",
         {
-            "state": "n",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530965743380,
             "changeTime": 1530966263532,
             "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": true
         }
@@ -17,14 +17,14 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main",
         {
-            "state": "n",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530965743380,
             "changeTime": 1530965743380,
             "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
             "isArtifactRoot": false
         }
@@ -32,42 +32,41 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1530967835828,
-            "changeTime": 1530967835828,
-            "contentHash": "4cfd1989fa44dd1a317ae36b127a22da3b8eae1b"
+            "modifiedTime": 1530992699421,
+            "changeTime": 1530992699421,
+            "contentHash": "06bee0965939b6afb0fcf39b909d9e289a88dcc0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura",
         {
-            "state": "n",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1530965743380,
-            "changeTime": 1530965743380,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "modifiedTime": 1530975374848,
+            "changeTime": 1530975374848,
+            "contentHash": "1443751b88f55541db793c34ace4b517bc58b818",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList",
         {
-            "state": "n",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530966597337,
             "changeTime": 1530966597337,
             "contentHash": "87ab99dac913c7172997f31879129ce1a6ee56c1",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": true,
             "isArtifactRoot": false
         }
@@ -75,209 +74,547 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Action_1__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Action_1__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 11329,
             "modifiedTime": 1530967835783,
             "changeTime": 1530967835783,
-            "contentHash": "f1046c66b92aedbc8f20ce52e55a84b15bda7927"
+            "contentHash": "f1046c66b92aedbc8f20ce52e55a84b15bda7927",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Action_2__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Action_2__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 34739,
             "modifiedTime": 1530967835791,
             "changeTime": 1530967835791,
-            "contentHash": "a5bd6fc43e980ccbf6a2eb59874e55971f371768"
+            "contentHash": "a5bd6fc43e980ccbf6a2eb59874e55971f371768",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Status__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields\\Status__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 25445,
             "modifiedTime": 1530967835799,
             "changeTime": 1530967835799,
-            "contentHash": "37458aac6957a5b9904bf9104dc33dc52b914de6"
+            "contentHash": "37458aac6957a5b9904bf9104dc33dc52b914de6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8880,
             "modifiedTime": 1530967835810,
             "changeTime": 1530967835810,
-            "contentHash": "fa6630f89454d8ce9c8bcad66751f6d34a27a55c"
+            "contentHash": "fa6630f89454d8ce9c8bcad66751f6d34a27a55c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Marketing) Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Marketing) Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8932,
             "modifiedTime": 1530967835816,
             "changeTime": 1530967835816,
-            "contentHash": "59db67fc938c7d38dffca3be2b84d8885b064dd2"
+            "contentHash": "59db67fc938c7d38dffca3be2b84d8885b064dd2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Support) Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Support) Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8319,
             "modifiedTime": 1530967835821,
             "changeTime": 1530967835821,
-            "contentHash": "f98ccf4ea8203b3e3bce7e6a7a2584a74cfa23d7"
+            "contentHash": "f98ccf4ea8203b3e3bce7e6a7a2584a74cfa23d7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Sales) Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts\\Lead-Lead (Sales) Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8880,
             "modifiedTime": 1530967835826,
             "changeTime": 1530967835826,
-            "contentHash": "fa6630f89454d8ce9c8bcad66751f6d34a27a55c"
+            "contentHash": "fa6630f89454d8ce9c8bcad66751f6d34a27a55c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5112,
             "modifiedTime": 1530967835854,
             "changeTime": 1530967835854,
-            "contentHash": "483ffe4f4dba80b8b70fd12ce52a291153483e20"
+            "contentHash": "483ffe4f4dba80b8b70fd12ce52a291153483e20",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 18177,
             "modifiedTime": 1530967835840,
             "changeTime": 1530967835840,
-            "contentHash": "c4bb86837732efc0b1c2e60b2948467d0443cfe2"
+            "contentHash": "c4bb86837732efc0b1c2e60b2948467d0443cfe2",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4772,
             "modifiedTime": 1530967835854,
             "changeTime": 1530967835854,
-            "contentHash": "e2ab3c19f30260e62998f0b018da202543381874"
+            "contentHash": "e2ab3c19f30260e62998f0b018da202543381874",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles\\Custom: Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4776,
             "modifiedTime": 1530967835854,
             "changeTime": 1530967835854,
-            "contentHash": "568da449bc88af858b6cdac0f85a33e1d0ed4823"
+            "contentHash": "568da449bc88af858b6cdac0f85a33e1d0ed4823",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530967835798,
             "changeTime": 1530967835798,
-            "contentHash": "2a5c76f68e6817389f35a6f4e0eea4f077a4d7aa"
+            "contentHash": "2a5c76f68e6817389f35a6f4e0eea4f077a4d7aa",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects\\Lead",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530967835778,
             "changeTime": 1530967835778,
-            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530967835778,
             "changeTime": 1530967835778,
-            "contentHash": "c6f71d85aeaa3b60db80eedad5ebb75e321f3eb0"
+            "contentHash": "c6f71d85aeaa3b60db80eedad5ebb75e321f3eb0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530967835825,
             "changeTime": 1530967835825,
-            "contentHash": "ce30a59842b45d50705407f716295cf8ca5d298b"
+            "contentHash": "ce30a59842b45d50705407f716295cf8ca5d298b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1530967835840,
             "changeTime": 1530967835840,
-            "contentHash": "28a941c36edc4d0e24ad208bddbadc4530145796"
+            "contentHash": "28a941c36edc4d0e24ad208bddbadc4530145796",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1530992625867,
+            "changeTime": 1530992625867,
+            "contentHash": "78395ca3d2b999a9d82adcfe485e24dafbeff41f",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\DependentPicklist.cls",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\DependentPicklist.cls",
+            "isDirectory": false,
+            "size": 3534,
+            "modifiedTime": 1530979991304,
+            "changeTime": 1530979991304,
+            "contentHash": "289a4075bc78d28c5b9bf46556dabab5dcdd08e8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\DependentPicklist.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\DependentPicklist.cls-meta.xml",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1530969207737,
+            "changeTime": 1530969207737,
+            "contentHash": "af65e7e0ebf696fec6fb1fd625601b87d29b22ec",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\PickListUtils.cls",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\PickListUtils.cls",
+            "isDirectory": false,
+            "size": 3355,
+            "modifiedTime": 1530969953906,
+            "changeTime": 1530969953906,
+            "contentHash": "d6129ce9745f54cb9344435a4e19427baa0920da",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\PickListUtils.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\PickListUtils.cls-meta.xml",
+            "isDirectory": false,
+            "size": 191,
+            "modifiedTime": 1530969804937,
+            "changeTime": 1530969804937,
+            "contentHash": "9a7bde72cc7808572f9e7d776c3b74508226c576",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1530975374866,
+            "changeTime": 1530975374866,
+            "contentHash": "4eacee945ff67a7fefa0de5764e77d339d09ef81",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.auradoc",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1530975374865,
+            "changeTime": 1530975374865,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.cmp",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.cmp",
+            "isDirectory": false,
+            "size": 2040,
+            "modifiedTime": 1530992026059,
+            "changeTime": 1530992026059,
+            "contentHash": "bfbe34b3103f3e981234db0e02262ff3c9b4607d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 242,
+            "modifiedTime": 1530975374853,
+            "changeTime": 1530975374853,
+            "contentHash": "3d9d45faa4412951465f7a74395c32277e319bf0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.css",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1530975374859,
+            "changeTime": 1530975374859,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.design",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.design",
+            "isDirectory": false,
+            "size": 40,
+            "modifiedTime": 1530975374867,
+            "changeTime": 1530975374867,
+            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.svg",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.svg",
+            "isDirectory": false,
+            "size": 661,
+            "modifiedTime": 1530975374863,
+            "changeTime": 1530975374863,
+            "contentHash": "721eeffe17135535c3834b77f1e1968fe6360ed4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionController.js",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionController.js",
+            "isDirectory": false,
+            "size": 4374,
+            "modifiedTime": 1530992139531,
+            "changeTime": 1530992139531,
+            "contentHash": "f3398e062a3851a197c176ed77db64d794355379",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionHelper.js",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionHelper.js",
+            "isDirectory": false,
+            "size": 45,
+            "modifiedTime": 1530975374857,
+            "changeTime": 1530975374857,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionRenderer.js",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1530975374862,
+            "changeTime": 1530975374862,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\AccountFactory.cls",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\AccountFactory.cls",
+            "isDirectory": false,
+            "size": 1129,
+            "modifiedTime": 1530992500897,
+            "changeTime": 1530992500897,
+            "contentHash": "b66d2ac2cfe30a88bb2ac9a492ce0172c515a210",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\AccountFactory.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\AccountFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1530992495601,
+            "changeTime": 1530992495601,
+            "contentHash": "28f4586a48a317b1c3284efb6b49054f3f0a8f66",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactFactory.cls",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactFactory.cls",
+            "isDirectory": false,
+            "size": 1529,
+            "modifiedTime": 1530992533529,
+            "changeTime": 1530992533529,
+            "contentHash": "d07ef8df78920b1055aaa479c0f1d38692629de8",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactFactory.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 192,
+            "modifiedTime": 1530992530498,
+            "changeTime": 1530992530498,
+            "contentHash": "dc33c4152bb85323b27349ca36d2a05e839addce",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandler.cls",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandler.cls",
+            "isDirectory": false,
+            "size": 1469,
+            "modifiedTime": 1530992591429,
+            "changeTime": 1530992591429,
+            "contentHash": "8b42d634dc6463aed4cff06d7ee4b0aa6b67b296",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandler.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandler.cls-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1530992584350,
+            "changeTime": 1530992584350,
+            "contentHash": "4387285bb0db723c852d66e06a5d16f655ce71a6",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 4482,
+            "modifiedTime": 1530992874903,
+            "changeTime": 1530992874903,
+            "contentHash": "ed811842d1bff07e05fde17aab47e0663810b03b"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1530992625868,
+            "changeTime": 1530992625868,
+            "contentHash": "e9a9c2e8c730cbfa26caf2c6cf80b4dd5547ee6c",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1530992713169,
+            "changeTime": 1530992713169,
+            "contentHash": "510772f8aaa803e903c4cdcf04784d624f35e4dd",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers\\ContactTrigger.trigger",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers\\ContactTrigger.trigger",
+            "isDirectory": false,
+            "size": 195,
+            "modifiedTime": 1530992720118,
+            "changeTime": 1530992720118,
+            "contentHash": "d60d89c49c54ffc42ceb502e52419ead638919e4",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers\\ContactTrigger.trigger-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\triggers\\ContactTrigger.trigger-meta.xml",
+            "isDirectory": false,
+            "size": 194,
+            "modifiedTime": 1530992713170,
+            "changeTime": 1530992713170,
+            "contentHash": "dc6dae23bd555a5614804babeda94165ae2a540a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]

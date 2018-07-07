@@ -1,0 +1,36 @@
+<aura:component controller="DependentPicklist" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction">
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:attribute name="statusWithAction1Map" type="Map" />
+    <aura:attribute name="action1WithAction2Map" type="Map" />
+    
+    <aura:attribute name="statusOptions" type="List" access="PRIVATE"/>
+    <aura:attribute name="action1Options" type="List" access="PRIVATE"/>
+    <aura:attribute name="action2Options" type="List" access="PRIVATE"/>
+
+    
+    <aura:attribute name="selectedValueOfStatus" type="String" access="PRIVATE"/>
+    <aura:attribute name="selectedValueOfAction1" type="String" access="PRIVATE"/>
+    <aura:attribute name="selectedValueOfAction2" type="String" access="PRIVATE"/>
+
+
+    <lightning:select name="status" label="Status" aura:id="status" value="{!v.selectedValueOfStatus}" onchange="{!c.onChangeValueOfStatus}" >
+        <aura:iteration items="{!v.statusOptions}" var="statusOption">
+            <option text="{!statusOption.label}" value="{!statusOption.value}" selected="{!statusOption.selected}"/>
+        </aura:iteration>
+    </lightning:select>
+
+    <lightning:select name="action1" label="Action 1" aura:id="action1" value="{!v.selectedValueOfAction1}" onchange="{!c.onChangeValueOfAction1}">
+        <aura:iteration items="{!v.action1Options}" var="action1Option">
+            <option text="{!action1Option.label}" value="{!action1Option.value}" selected="{!action1Option.selected}"/>
+        </aura:iteration>
+    </lightning:select>
+
+    <lightning:select name="action2" label="Action 2" aura:id="action2" value="{!v.selectedValueOfAction2}">
+        <aura:iteration items="{!v.action2Options}" var="action2Option">
+            <option text="{!action2Option.label}" value="{!action2Option.value}" selected="{!action2Option.selected}"/>
+        </aura:iteration>
+    </lightning:select>
+
+</aura:component>	
+
