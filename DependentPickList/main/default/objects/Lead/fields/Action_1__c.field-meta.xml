@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_1__c</fullName>
+    <externalId>false</externalId>
+    <label>Action 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Docs Received - Send to RR</fullName>
+                <default>false</default>
+                <label>All Docs Received - Send to RR</label>
+            </value>
+            <value>
+                <fullName>Awaiting Paydown Letters</fullName>
+                <default>false</default>
+                <label>Awaiting Paydown Letters</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request</fullName>
+                <default>false</default>
+                <label>Cancellation Request</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Complete-Send Back to BLC</fullName>
+                <default>false</default>
+                <label>Complete-Send Back to BLC</label>
+            </value>
+            <value>
+                <fullName>Complete-Send Back to RR</fullName>
+                <default>false</default>
+                <label>Complete-Send Back to RR</label>
+            </value>
+            <value>
+                <fullName>Complete - Send to BLC</fullName>
+                <default>false</default>
+                <label>Complete - Send to BLC</label>
+            </value>
+            <value>
+                <fullName>Contact</fullName>
+                <default>false</default>
+                <label>Contact</label>
+            </value>
+            <value>
+                <fullName>Duplicate Lead</fullName>
+                <default>false</default>
+                <label>Duplicate Lead</label>
+            </value>
+            <value>
+                <fullName>Entity Complete - Send to BLC</fullName>
+                <default>false</default>
+                <label>Entity Complete - Send to BLC</label>
+            </value>
+            <value>
+                <fullName>Invalid Contact Info</fullName>
+                <default>false</default>
+                <label>Invalid Contact Info</label>
+            </value>
+            <value>
+                <fullName>ISO-UW In Review</fullName>
+                <default>false</default>
+                <label>ISO-UW In Review</label>
+            </value>
+            <value>
+                <fullName>Low Credit</fullName>
+                <default>false</default>
+                <label>Low Credit</label>
+            </value>
+            <value>
+                <fullName>Move Back</fullName>
+                <default>false</default>
+                <label>Move Back</label>
+            </value>
+            <value>
+                <fullName>Move Back to BLC</fullName>
+                <default>false</default>
+                <label>Move Back to BLC</label>
+            </value>
+            <value>
+                <fullName>Move Back to OF-Awaiting Funding</fullName>
+                <default>false</default>
+                <label>Move Back to OF-Awaiting Funding</label>
+            </value>
+            <value>
+                <fullName>Move Back to UW</fullName>
+                <default>false</default>
+                <label>Move Back to UW</label>
+            </value>
+            <value>
+                <fullName>New Conditions-Move back</fullName>
+                <default>false</default>
+                <label>New Conditions-Move back</label>
+            </value>
+            <value>
+                <fullName>New Conditions Move Back to AWD</fullName>
+                <default>false</default>
+                <label>New Conditions Move Back to AWD</label>
+            </value>
+            <value>
+                <fullName>No Conditions - ISO Approved</fullName>
+                <default>false</default>
+                <label>No Conditions - ISO Approved</label>
+            </value>
+            <value>
+                <fullName>No Conditions - ISO Declined</fullName>
+                <default>false</default>
+                <label>No Conditions - ISO Declined</label>
+            </value>
+            <value>
+                <fullName>No Contact</fullName>
+                <default>false</default>
+                <label>No Contact</label>
+            </value>
+            <value>
+                <fullName>Pre Approved</fullName>
+                <default>false</default>
+                <label>Pre Approved</label>
+            </value>
+            <value>
+                <fullName>RR Complete-Hold for Entity Docs</fullName>
+                <default>false</default>
+                <label>RR Complete-Hold for Entity Docs</label>
+            </value>
+            <value>
+                <fullName>RR Complete-Hold Invalid Paydown Letters</fullName>
+                <default>false</default>
+                <label>RR Complete-Hold Invalid Paydown Letters</label>
+            </value>
+            <value>
+                <fullName>RR Complete-Hold Other</fullName>
+                <default>false</default>
+                <label>RR Complete-Hold Other</label>
+            </value>
+            <value>
+                <fullName>RR Complete- Send to BLC</fullName>
+                <default>false</default>
+                <label>RR Complete- Send to BLC</label>
+            </value>
+            <value>
+                <fullName>Seek Decline</fullName>
+                <default>false</default>
+                <label>Seek Decline</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - BK, Collections, Lates</fullName>
+                <default>false</default>
+                <label>Seek Decline - BK, Collections, Lates</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Inquiries</fullName>
+                <default>false</default>
+                <label>Seek Decline - Inquiries</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Limited Credit History</fullName>
+                <default>false</default>
+                <label>Seek Decline - Limited Credit History</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Other</fullName>
+                <default>false</default>
+                <label>Seek Decline - Other</label>
+            </value>
+            <value>
+                <fullName>UW In Review</fullName>
+                <default>false</default>
+                <label>UW In Review</label>
+            </value>
+            <value>
+                <fullName>Valid Paydown Letters Received - Send to RR</fullName>
+                <default>false</default>
+                <label>Valid Paydown Letters Received - Send to RR</label>
+            </value>
+            <value>
+                <fullName>VCQ Signed</fullName>
+                <default>false</default>
+                <label>VCQ Signed</label>
+            </value>
+            <value>
+                <fullName>Contacted</fullName>
+                <default>false</default>
+                <label>Contacted</label>
+            </value>
+            <value>
+                <fullName>Called Back-Credit Report Received</fullName>
+                <default>false</default>
+                <label>Called Back-Credit Report Received</label>
+            </value>
+            <value>
+                <fullName>Called Back-Reduced Rate (Email) - Credit Report Received</fullName>
+                <default>false</default>
+                <label>Called Back-Reduced Rate (Email) - Credit Report Received</label>
+            </value>
+            <value>
+                <fullName>Called Back-Reduced Rate (Text)-Credit Report Received</fullName>
+                <default>false</default>
+                <label>Called Back-Reduced Rate (Text)-Credit Report Received</label>
+            </value>
+            <value>
+                <fullName>Called Back-Reduced Rate (VM)-Credit Report Received</fullName>
+                <default>false</default>
+                <label>Called Back-Reduced Rate (VM)-Credit Report Received</label>
+            </value>
+            <value>
+                <fullName>Called Back-Reduced Rate-Credit Report</fullName>
+                <default>false</default>
+                <label>Called Back-Reduced Rate-Credit Report</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - High Debt</fullName>
+                <default>false</default>
+                <label>Seek Decline - High Debt</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>U-Ready for Underwriting</controllingFieldValue>
+            <valueName>ISO-UW In Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Ready for Underwriting</controllingFieldValue>
+            <valueName>UW In Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>No Conditions - ISO Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>No Conditions - ISO Declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>Seek Decline - BK, Collections, Lates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>Seek Decline - Inquiries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>Seek Decline - Limited Credit History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-Underwriting in Progress</controllingFieldValue>
+            <valueName>Seek Decline - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-ISO-Pending Approval</controllingFieldValue>
+            <controllingFieldValue>AW-Agreement Walkthrough</controllingFieldValue>
+            <valueName>Move Back to UW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>U-ISO-Underwriting in Process</controllingFieldValue>
+            <valueName>Duplicate Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AW-Agreement Walkthrough</controllingFieldValue>
+            <valueName>Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AW-Agreement Walkthrough</controllingFieldValue>
+            <valueName>No Contact</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

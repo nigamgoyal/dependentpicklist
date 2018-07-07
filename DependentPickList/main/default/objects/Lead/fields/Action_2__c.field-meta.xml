@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Action_2__c</fullName>
+    <externalId>false</externalId>
+    <label>Action 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Action_1__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adjust Invoice</fullName>
+                <default>false</default>
+                <label>Adjust Invoice</label>
+            </value>
+            <value>
+                <fullName>All Docs Received - Schedule VC</fullName>
+                <default>false</default>
+                <label>All Docs Received - Schedule VC</label>
+            </value>
+            <value>
+                <fullName>Alt Offer</fullName>
+                <default>false</default>
+                <label>Alt Offer</label>
+            </value>
+            <value>
+                <fullName>Bank Closure Not Resolved</fullName>
+                <default>false</default>
+                <label>Bank Closure Not Resolved</label>
+            </value>
+            <value>
+                <fullName>Bank Closure Resolved</fullName>
+                <default>false</default>
+                <label>Bank Closure Resolved</label>
+            </value>
+            <value>
+                <fullName>Breach of Contract</fullName>
+                <default>false</default>
+                <label>Breach of Contract</label>
+            </value>
+            <value>
+                <fullName>Cancel Fee Not Paid - To Collections</fullName>
+                <default>false</default>
+                <label>Cancel Fee Not Paid - To Collections</label>
+            </value>
+            <value>
+                <fullName>Cancel Fee Paid</fullName>
+                <default>false</default>
+                <label>Cancel Fee Paid</label>
+            </value>
+            <value>
+                <fullName>Cancel Invoice</fullName>
+                <default>false</default>
+                <label>Cancel Invoice</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request - Alt Offer</fullName>
+                <default>false</default>
+                <label>Cancellation Request - Alt Offer</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request - Business Failed</fullName>
+                <default>false</default>
+                <label>Cancellation Request - Business Failed</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request - Funding Results</fullName>
+                <default>false</default>
+                <label>Cancellation Request - Funding Results</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request – Other</fullName>
+                <default>false</default>
+                <label>Cancellation Request – Other</label>
+            </value>
+            <value>
+                <fullName>Cancellation Request – Rate</fullName>
+                <default>false</default>
+                <label>Cancellation Request – Rate</label>
+            </value>
+            <value>
+                <fullName>Client Agrees</fullName>
+                <default>false</default>
+                <label>Client Agrees</label>
+            </value>
+            <value>
+                <fullName>Client Decline - Alt Offer</fullName>
+                <default>false</default>
+                <label>Client Decline - Alt Offer</label>
+            </value>
+            <value>
+                <fullName>Client Decline - Insufficient Funding</fullName>
+                <default>false</default>
+                <label>Client Decline - Insufficient Funding</label>
+            </value>
+            <value>
+                <fullName>Client Decline – Other</fullName>
+                <default>false</default>
+                <label>Client Decline – Other</label>
+            </value>
+            <value>
+                <fullName>Client Decline – Rate</fullName>
+                <default>false</default>
+                <label>Client Decline – Rate</label>
+            </value>
+            <value>
+                <fullName>Client Declines - Not Moving Forward</fullName>
+                <default>false</default>
+                <label>Client Declines - Not Moving Forward</label>
+            </value>
+            <value>
+                <fullName>Client Declines - No to CC&#39;s</fullName>
+                <default>false</default>
+                <label>Client Declines - No to CC&#39;s</label>
+            </value>
+            <value>
+                <fullName>Client Issue - Bank Closure</fullName>
+                <default>false</default>
+                <label>Client Issue - Bank Closure</label>
+            </value>
+            <value>
+                <fullName>Client Issue – Other</fullName>
+                <default>false</default>
+                <label>Client Issue – Other</label>
+            </value>
+            <value>
+                <fullName>Client Issue - Product/Fee</fullName>
+                <default>false</default>
+                <label>Client Issue - Product/Fee</label>
+            </value>
+            <value>
+                <fullName>Client Not Saved - Fee Paid</fullName>
+                <default>false</default>
+                <label>Client Not Saved - Fee Paid</label>
+            </value>
+            <value>
+                <fullName>Client Not Saved - Invoiced Cancel Fee</fullName>
+                <default>false</default>
+                <label>Client Not Saved - Invoiced Cancel Fee</label>
+            </value>
+            <value>
+                <fullName>Client Not Saved - Payment Not Received +21 Days</fullName>
+                <default>false</default>
+                <label>Client Not Saved - Payment Not Received +21 Days</label>
+            </value>
+            <value>
+                <fullName>Client Saved</fullName>
+                <default>false</default>
+                <label>Client Saved</label>
+            </value>
+            <value>
+                <fullName>Client Signs</fullName>
+                <default>false</default>
+                <label>Client Signs</label>
+            </value>
+            <value>
+                <fullName>Closing Call Complete</fullName>
+                <default>false</default>
+                <label>Closing Call Complete</label>
+            </value>
+            <value>
+                <fullName>CR Received</fullName>
+                <default>false</default>
+                <label>CR Received</label>
+            </value>
+            <value>
+                <fullName>Explained Docs, Move to AWD</fullName>
+                <default>false</default>
+                <label>Explained Docs, Move to AWD</label>
+            </value>
+            <value>
+                <fullName>Follow Up - Appointment No Show</fullName>
+                <default>false</default>
+                <label>Follow Up - Appointment No Show</label>
+            </value>
+            <value>
+                <fullName>Follow Up - Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>Follow Up - Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>Follow Up - Rescheduled Appointment - Complete</fullName>
+                <default>false</default>
+                <label>Follow Up - Rescheduled Appointment - Complete</label>
+            </value>
+            <value>
+                <fullName>Follow Up - Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>Follow Up - Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>Follow Up - Scheduled Appointment - Complete</fullName>
+                <default>false</default>
+                <label>Follow Up - Scheduled Appointment - Complete</label>
+            </value>
+            <value>
+                <fullName>Invalid Docs</fullName>
+                <default>false</default>
+                <label>Invalid Docs</label>
+            </value>
+            <value>
+                <fullName>Invalid Entity Docs</fullName>
+                <default>false</default>
+                <label>Invalid Entity Docs</label>
+            </value>
+            <value>
+                <fullName>Invalid Paydown Letters</fullName>
+                <default>false</default>
+                <label>Invalid Paydown Letters</label>
+            </value>
+            <value>
+                <fullName>IW Complete - Send Invoice</fullName>
+                <default>false</default>
+                <label>IW Complete - Send Invoice</label>
+            </value>
+            <value>
+                <fullName>Left Message</fullName>
+                <default>false</default>
+                <label>Left Message</label>
+            </value>
+            <value>
+                <fullName>Left Message 1</fullName>
+                <default>false</default>
+                <label>Left Message 1</label>
+            </value>
+            <value>
+                <fullName>Left Message 10</fullName>
+                <default>false</default>
+                <label>Left Message 10</label>
+            </value>
+            <value>
+                <fullName>Left Message 11</fullName>
+                <default>false</default>
+                <label>Left Message 11</label>
+            </value>
+            <value>
+                <fullName>Left Message 12</fullName>
+                <default>false</default>
+                <label>Left Message 12</label>
+            </value>
+            <value>
+                <fullName>Left Message 13</fullName>
+                <default>false</default>
+                <label>Left Message 13</label>
+            </value>
+            <value>
+                <fullName>Left Message 14</fullName>
+                <default>false</default>
+                <label>Left Message 14</label>
+            </value>
+            <value>
+                <fullName>Left Message 15</fullName>
+                <default>false</default>
+                <label>Left Message 15</label>
+            </value>
+            <value>
+                <fullName>Left Message-15 - Send to RT</fullName>
+                <default>false</default>
+                <label>Left Message-15 - Send to RT</label>
+            </value>
+            <value>
+                <fullName>Left Message-15-Unresponsive</fullName>
+                <default>false</default>
+                <label>Left Message-15-Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Left Message 15 - Unresponsive-Seek Decline</fullName>
+                <default>false</default>
+                <label>Left Message 15 - Unresponsive-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>Left Message 15 - Unresponsive - Send to RT</fullName>
+                <default>false</default>
+                <label>Left Message 15 - Unresponsive - Send to RT</label>
+            </value>
+            <value>
+                <fullName>Left Message 2</fullName>
+                <default>false</default>
+                <label>Left Message 2</label>
+            </value>
+            <value>
+                <fullName>Left Message 3</fullName>
+                <default>false</default>
+                <label>Left Message 3</label>
+            </value>
+            <value>
+                <fullName>Left Message 4</fullName>
+                <default>false</default>
+                <label>Left Message 4</label>
+            </value>
+            <value>
+                <fullName>Left Message 5</fullName>
+                <default>false</default>
+                <label>Left Message 5</label>
+            </value>
+            <value>
+                <fullName>Left Message 6</fullName>
+                <default>false</default>
+                <label>Left Message 6</label>
+            </value>
+            <value>
+                <fullName>Left Message 7</fullName>
+                <default>false</default>
+                <label>Left Message 7</label>
+            </value>
+            <value>
+                <fullName>Left Message 7 - Send Invoice</fullName>
+                <default>false</default>
+                <label>Left Message 7 - Send Invoice</label>
+            </value>
+            <value>
+                <fullName>Left Message 8</fullName>
+                <default>false</default>
+                <label>Left Message 8</label>
+            </value>
+            <value>
+                <fullName>Left Message 9</fullName>
+                <default>false</default>
+                <label>Left Message 9</label>
+            </value>
+            <value>
+                <fullName>Left Message - Unresponsive - Send to DL</fullName>
+                <default>false</default>
+                <label>Left Message - Unresponsive - Send to DL</label>
+            </value>
+            <value>
+                <fullName>Move Back to BLC</fullName>
+                <default>false</default>
+                <label>Move Back to BLC</label>
+            </value>
+            <value>
+                <fullName>Move Back to UW</fullName>
+                <default>false</default>
+                <label>Move Back to UW</label>
+            </value>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>No Contact</fullName>
+                <default>false</default>
+                <label>No Contact</label>
+            </value>
+            <value>
+                <fullName>Not Paid</fullName>
+                <default>false</default>
+                <label>Not Paid</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other Not Resolved</fullName>
+                <default>false</default>
+                <label>Other Not Resolved</label>
+            </value>
+            <value>
+                <fullName>Other Resolved</fullName>
+                <default>false</default>
+                <label>Other Resolved</label>
+            </value>
+            <value>
+                <fullName>Paid - 3rd Party Collected</fullName>
+                <default>false</default>
+                <label>Paid - 3rd Party Collected</label>
+            </value>
+            <value>
+                <fullName>Paid - Seek Collected</fullName>
+                <default>false</default>
+                <label>Paid - Seek Collected</label>
+            </value>
+            <value>
+                <fullName>Partial Payment</fullName>
+                <default>false</default>
+                <label>Partial Payment</label>
+            </value>
+            <value>
+                <fullName>Pay in Full- Continue Invoicing</fullName>
+                <default>false</default>
+                <label>Pay in Full- Continue Invoicing</label>
+            </value>
+            <value>
+                <fullName>Pay in Full- Invoicing Complete</fullName>
+                <default>false</default>
+                <label>Pay in Full- Invoicing Complete</label>
+            </value>
+            <value>
+                <fullName>Payment Not Received &gt; 7 days</fullName>
+                <default>false</default>
+                <label>Payment Not Received &gt; 7 days</label>
+            </value>
+            <value>
+                <fullName>Product/Fee Not Resolved</fullName>
+                <default>false</default>
+                <label>Product/Fee Not Resolved</label>
+            </value>
+            <value>
+                <fullName>Product/Fee Resolved</fullName>
+                <default>false</default>
+                <label>Product/Fee Resolved</label>
+            </value>
+            <value>
+                <fullName>Rate</fullName>
+                <default>false</default>
+                <label>Rate</label>
+            </value>
+            <value>
+                <fullName>Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>Rescheduled Appointment Complete</fullName>
+                <default>false</default>
+                <label>Rescheduled Appointment Complete</label>
+            </value>
+            <value>
+                <fullName>Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>Scheduled Appointment Complete</fullName>
+                <default>false</default>
+                <label>Scheduled Appointment Complete</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - BK, Collections, Lates</fullName>
+                <default>false</default>
+                <label>Seek Decline - BK, Collections, Lates</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Breach of Contract</fullName>
+                <default>false</default>
+                <label>Seek Decline - Breach of Contract</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - High Debt</fullName>
+                <default>false</default>
+                <label>Seek Decline - High Debt</label>
+            </value>
+            <value>
+                <fullName>Seek Decline – Inquiries</fullName>
+                <default>false</default>
+                <label>Seek Decline – Inquiries</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Limited Credit History</fullName>
+                <default>false</default>
+                <label>Seek Decline - Limited Credit History</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Low Credit (Sub 680)</fullName>
+                <default>false</default>
+                <label>Seek Decline - Low Credit (Sub 680)</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - No Collection</fullName>
+                <default>false</default>
+                <label>Seek Decline - No Collection</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - No Contact</fullName>
+                <default>false</default>
+                <label>Seek Decline - No Contact</label>
+            </value>
+            <value>
+                <fullName>Seek Decline – Other</fullName>
+                <default>false</default>
+                <label>Seek Decline – Other</label>
+            </value>
+            <value>
+                <fullName>Seek Decline - Unable to Fund</fullName>
+                <default>false</default>
+                <label>Seek Decline - Unable to Fund</label>
+            </value>
+            <value>
+                <fullName>Send to Collections</fullName>
+                <default>false</default>
+                <label>Send to Collections</label>
+            </value>
+            <value>
+                <fullName>Status Update - Additional Docs Needed</fullName>
+                <default>false</default>
+                <label>Status Update - Additional Docs Needed</label>
+            </value>
+            <value>
+                <fullName>Status Update - Bank Status</fullName>
+                <default>false</default>
+                <label>Status Update - Bank Status</label>
+            </value>
+            <value>
+                <fullName>Status Update - Call Bank</fullName>
+                <default>false</default>
+                <label>Status Update - Call Bank</label>
+            </value>
+            <value>
+                <fullName>Unable to Fund</fullName>
+                <default>false</default>
+                <label>Unable to Fund</label>
+            </value>
+            <value>
+                <fullName>Unpaid Invoice +21 Days - Collections</fullName>
+                <default>false</default>
+                <label>Unpaid Invoice +21 Days - Collections</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>VC Complete</fullName>
+                <default>false</default>
+                <label>VC Complete</label>
+            </value>
+            <value>
+                <fullName>VC Rescheduled</fullName>
+                <default>false</default>
+                <label>VC Rescheduled</label>
+            </value>
+            <value>
+                <fullName>Void Invoice</fullName>
+                <default>false</default>
+                <label>Void Invoice</label>
+            </value>
+            <value>
+                <fullName>Schedule appointment for today</fullName>
+                <default>false</default>
+                <label>Schedule appointment for today</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Cancellation Request</controllingFieldValue>
+            <valueName>Alt Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancellation Request</controllingFieldValue>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Adjust Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>All Docs Received - Schedule VC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Bank Closure Not Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Bank Closure Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Cancel Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Cancellation Request - Alt Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Cancellation Request - Funding Results</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Cancellation Request – Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Cancellation Request – Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Agrees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Decline - Alt Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Decline - Insufficient Funding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Decline – Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Decline – Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Declines - Not Moving Forward</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Declines - No to CC&#39;s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Issue - Bank Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Issue – Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Issue - Product/Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Not Saved - Fee Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Not Saved - Invoiced Cancel Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Not Saved - Payment Not Received +21 Days</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Saved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Client Signs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Closing Call Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>CR Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Explained Docs, Move to AWD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Follow Up - Appointment No Show</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Follow Up - Rescheduled Appointment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Follow Up - Rescheduled Appointment - Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Follow Up - Scheduled Appointment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Follow Up - Scheduled Appointment - Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Invalid Docs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Invalid Entity Docs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Invalid Paydown Letters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>IW Complete - Send Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message-15 - Send to RT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message-15-Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 15 - Unresponsive-Seek Decline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 15 - Unresponsive - Send to RT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 6</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 7</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 7 - Send Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message 9</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Left Message - Unresponsive - Send to DL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Move Back to BLC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Move Back to UW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>No Answer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>No Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Not Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Other Not Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Other Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Paid - 3rd Party Collected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Paid - Seek Collected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Partial Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Pay in Full- Continue Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Pay in Full- Invoicing Complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Payment Not Received &gt; 7 days</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Product/Fee Not Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Product/Fee Resolved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact</controllingFieldValue>
+            <valueName>Rate</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

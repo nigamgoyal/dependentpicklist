@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>U-Ready for Underwriting</fullName>
+                <default>false</default>
+                <label>U-Ready for Underwriting</label>
+            </value>
+            <value>
+                <fullName>U-Underwriting in Progress</fullName>
+                <default>false</default>
+                <label>U-Underwriting in Progress</label>
+            </value>
+            <value>
+                <fullName>U-ISO-Pending Approval</fullName>
+                <default>false</default>
+                <label>U-ISO-Pending Approval</label>
+            </value>
+            <value>
+                <fullName>U-ISO-Underwriting in Process</fullName>
+                <default>false</default>
+                <label>U-ISO-Underwriting in Process</label>
+            </value>
+            <value>
+                <fullName>AW-Agreement Walkthrough</fullName>
+                <default>false</default>
+                <label>AW-Agreement Walkthrough</label>
+            </value>
+            <value>
+                <fullName>AW-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>AW-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>AW-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>AW-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>PS-Pending Signature</fullName>
+                <default>false</default>
+                <label>PS-Pending Signature</label>
+            </value>
+            <value>
+                <fullName>PS-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>PS-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>PS-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>PS-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>AD-Additional Docs</fullName>
+                <default>false</default>
+                <label>AD-Additional Docs</label>
+            </value>
+            <value>
+                <fullName>AWD-Awaiting Docs</fullName>
+                <default>false</default>
+                <label>AWD-Awaiting Docs</label>
+            </value>
+            <value>
+                <fullName>VC-Scheduled for Call</fullName>
+                <default>false</default>
+                <label>VC-Scheduled for Call</label>
+            </value>
+            <value>
+                <fullName>VC-Waiting for VCQ</fullName>
+                <default>false</default>
+                <label>VC-Waiting for VCQ</label>
+            </value>
+            <value>
+                <fullName>VC-Ready for Call</fullName>
+                <default>false</default>
+                <label>VC-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>VC-RR-Pending Docs</fullName>
+                <default>false</default>
+                <label>VC-RR-Pending Docs</label>
+            </value>
+            <value>
+                <fullName>VC-BLC-Pending Docs</fullName>
+                <default>false</default>
+                <label>VC-BLC-Pending Docs</label>
+            </value>
+            <value>
+                <fullName>RR-Ready for Processing</fullName>
+                <default>false</default>
+                <label>RR-Ready for Processing</label>
+            </value>
+            <value>
+                <fullName>RR-Awaiting Paydown Letters</fullName>
+                <default>false</default>
+                <label>RR-Awaiting Paydown Letters</label>
+            </value>
+            <value>
+                <fullName>RR-Sent to Rapid Rescore</fullName>
+                <default>false</default>
+                <label>RR-Sent to Rapid Rescore</label>
+            </value>
+            <value>
+                <fullName>RR-Pending Entity Docs</fullName>
+                <default>false</default>
+                <label>RR-Pending Entity Docs</label>
+            </value>
+            <value>
+                <fullName>RR-Pending-Other</fullName>
+                <default>false</default>
+                <label>RR-Pending-Other</label>
+            </value>
+            <value>
+                <fullName>BLC-Bank List Creation</fullName>
+                <default>false</default>
+                <label>BLC-Bank List Creation</label>
+            </value>
+            <value>
+                <fullName>OF-Awaiting Funding</fullName>
+                <default>false</default>
+                <label>OF-Awaiting Funding</label>
+            </value>
+            <value>
+                <fullName>IW-Invoice Walkthrough</fullName>
+                <default>false</default>
+                <label>IW-Invoice Walkthrough</label>
+            </value>
+            <value>
+                <fullName>IW-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>IW-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>IW-Appointment Rescheduled</fullName>
+                <default>false</default>
+                <label>IW-Appointment Rescheduled</label>
+            </value>
+            <value>
+                <fullName>AR-Accounts Receivable</fullName>
+                <default>false</default>
+                <label>AR-Accounts Receivable</label>
+            </value>
+            <value>
+                <fullName>AR-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>AR-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>AR-Appointment Rescheduled</fullName>
+                <default>false</default>
+                <label>AR-Appointment Rescheduled</label>
+            </value>
+            <value>
+                <fullName>AR-Client Issue</fullName>
+                <default>false</default>
+                <label>AR-Client Issue</label>
+            </value>
+            <value>
+                <fullName>3PC-3rd Party Collections</fullName>
+                <default>false</default>
+                <label>3PC-3rd Party Collections</label>
+            </value>
+            <value>
+                <fullName>RT-AD-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-AD-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-AWD-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-AWD-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-VC-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-VC-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-RR-Waiting for VCQ</fullName>
+                <default>false</default>
+                <label>RT-RR-Waiting for VCQ</label>
+            </value>
+            <value>
+                <fullName>RT-BLC-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-BLC-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-OF-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-OF-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-RR-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-RR-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>RT-AD-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-AD-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-AWD-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-AWD-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>AWD-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>AWD-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-VC-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-VC-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-VC-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-VC-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-RR-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-RR-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-RR-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-RR-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-BLC-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-BLC-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-BLC-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-BLC-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>CRD-ISC-Inquires</fullName>
+                <default>false</default>
+                <label>CRD-ISC-Inquires</label>
+            </value>
+            <value>
+                <fullName>CRD-ISC-BK, Collections, Lates</fullName>
+                <default>false</default>
+                <label>CRD-ISC-BK, Collections, Lates</label>
+            </value>
+            <value>
+                <fullName>CRD-ISC-Low Credit</fullName>
+                <default>false</default>
+                <label>CRD-ISC-Low Credit</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Debt Consolidation</fullName>
+                <default>false</default>
+                <label>DL-ISC-Debt Consolidation</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Limited Credit History</fullName>
+                <default>false</default>
+                <label>DL-ISC-Limited Credit History</label>
+            </value>
+            <value>
+                <fullName>ISC-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>ISC-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>ISC-Appointment Rescheduled</fullName>
+                <default>false</default>
+                <label>ISC-Appointment Rescheduled</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Client Decline-Insufficient Funding</fullName>
+                <default>false</default>
+                <label>DL-ISC-Client Decline-Insufficient Funding</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Client Decline-Alt Offer</fullName>
+                <default>false</default>
+                <label>DL-ISC-Client Decline-Alt Offer</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Client Decline-Rate</fullName>
+                <default>false</default>
+                <label>DL-ISC-Client Decline-Rate</label>
+            </value>
+            <value>
+                <fullName>DL-Client Decline-Other</fullName>
+                <default>false</default>
+                <label>DL-Client Decline-Other</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-1</fullName>
+                <default>false</default>
+                <label>ISC-Hot-1</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-2</fullName>
+                <default>false</default>
+                <label>ISC-Hot-2</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-3</fullName>
+                <default>false</default>
+                <label>ISC-Hot-3</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-4</fullName>
+                <default>false</default>
+                <label>ISC-Hot-4</label>
+            </value>
+            <value>
+                <fullName>ISC</fullName>
+                <default>false</default>
+                <label>ISC</label>
+            </value>
+            <value>
+                <fullName>DL- Left Message-Unresponsive-DL</fullName>
+                <default>false</default>
+                <label>DL- Left Message-Unresponsive-DL</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Duplicate Lead</fullName>
+                <default>false</default>
+                <label>DL-ISC-Duplicate Lead</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-Invalid Contact Info</fullName>
+                <default>false</default>
+                <label>DL-ISC-Invalid Contact Info</label>
+            </value>
+            <value>
+                <fullName>DL-ISC-DNC</fullName>
+                <default>false</default>
+                <label>DL-ISC-DNC</label>
+            </value>
+            <value>
+                <fullName>U-Underwriting in Process</fullName>
+                <default>false</default>
+                <label>U-Underwriting in Process</label>
+            </value>
+            <value>
+                <fullName>CRD-U-Inquires</fullName>
+                <default>false</default>
+                <label>CRD-U-Inquires</label>
+            </value>
+            <value>
+                <fullName>CRD-U-BK, Collections, Lates</fullName>
+                <default>false</default>
+                <label>CRD-U-BK, Collections, Lates</label>
+            </value>
+            <value>
+                <fullName>CRD-U-Low Credit</fullName>
+                <default>false</default>
+                <label>CRD-U-Low Credit</label>
+            </value>
+            <value>
+                <fullName>DL-U-(Limited Credit History)</fullName>
+                <default>false</default>
+                <label>DL-U-(Limited Credit History)</label>
+            </value>
+            <value>
+                <fullName>DL-U-(Other)</fullName>
+                <default>false</default>
+                <label>DL-U-(Other)</label>
+            </value>
+            <value>
+                <fullName>DL-U-Duplicate Lead</fullName>
+                <default>false</default>
+                <label>DL-U-Duplicate Lead</label>
+            </value>
+            <value>
+                <fullName>DL-U-ISO Decline</fullName>
+                <default>false</default>
+                <label>DL-U-ISO Decline</label>
+            </value>
+            <value>
+                <fullName>DL-U-ISO-Duplicate Lead</fullName>
+                <default>false</default>
+                <label>DL-U-ISO-Duplicate Lead</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Client Decline-Insufficient Funding</fullName>
+                <default>false</default>
+                <label>DL-AW-Client Decline-Insufficient Funding</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Client Decline-Rate</fullName>
+                <default>false</default>
+                <label>DL-AW-Client Decline-Rate</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Client Decline-No to CC&#39;s</fullName>
+                <default>false</default>
+                <label>DL-AW-Client Decline-No to CC&#39;s</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Client Decline-Alt Offer</fullName>
+                <default>false</default>
+                <label>DL-AW-Client Decline-Alt Offer</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Client Decline-Other</fullName>
+                <default>false</default>
+                <label>DL-AW-Client Decline-Other</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Unresponsive-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-AW-Unresponsive-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-AW-Seek Decline-Other</fullName>
+                <default>false</default>
+                <label>DL-AW-Seek Decline-Other</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Client Decline-Insufficient Funding</fullName>
+                <default>false</default>
+                <label>DL-PS-Client Decline-Insufficient Funding</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Client Decline-Alt Offer</fullName>
+                <default>false</default>
+                <label>DL-PS-Client Decline-Alt Offer</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Client Decline-Rate</fullName>
+                <default>false</default>
+                <label>DL-PS-Client Decline-Rate</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Client Decline-No to CC&#39;s</fullName>
+                <default>false</default>
+                <label>DL-PS-Client Decline-No to CC&#39;s</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Client Decline-Other</fullName>
+                <default>false</default>
+                <label>DL-PS-Client Decline-Other</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Contacted-Seek Decline-Other</fullName>
+                <default>false</default>
+                <label>DL-PS-Contacted-Seek Decline-Other</label>
+            </value>
+            <value>
+                <fullName>DL-PS-Unresponsive-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-PS-Unresponsive-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-AD-No Contact</fullName>
+                <default>false</default>
+                <label>DL-AD-No Contact</label>
+            </value>
+            <value>
+                <fullName>RR-Pending Paydown Letters</fullName>
+                <default>false</default>
+                <label>RR-Pending Paydown Letters</label>
+            </value>
+            <value>
+                <fullName>RR-Pending Other</fullName>
+                <default>false</default>
+                <label>RR-Pending Other</label>
+            </value>
+            <value>
+                <fullName>DL-RR-Other</fullName>
+                <default>false</default>
+                <label>DL-RR-Other</label>
+            </value>
+            <value>
+                <fullName>DL-IW-Seek Decline-Cancel Invoice</fullName>
+                <default>false</default>
+                <label>DL-IW-Seek Decline-Cancel Invoice</label>
+            </value>
+            <value>
+                <fullName>OF-Obtain Funding</fullName>
+                <default>false</default>
+                <label>OF-Obtain Funding</label>
+            </value>
+            <value>
+                <fullName>AR-Void Invoice</fullName>
+                <default>false</default>
+                <label>AR-Void Invoice</label>
+            </value>
+            <value>
+                <fullName>DL-AR-Client Issue Void Invoice</fullName>
+                <default>false</default>
+                <label>DL-AR-Client Issue Void Invoice</label>
+            </value>
+            <value>
+                <fullName>PAID</fullName>
+                <default>false</default>
+                <label>PAID</label>
+            </value>
+            <value>
+                <fullName>DL-Collections - Not Paid</fullName>
+                <default>false</default>
+                <label>DL-Collections - Not Paid</label>
+            </value>
+            <value>
+                <fullName>DL-RT-AD-Cancel-PAID</fullName>
+                <default>false</default>
+                <label>DL-RT-AD-Cancel-PAID</label>
+            </value>
+            <value>
+                <fullName>RT-Cancel Fee Pending</fullName>
+                <default>false</default>
+                <label>RT-Cancel Fee Pending</label>
+            </value>
+            <value>
+                <fullName>DL-RT-VC-Cancel-PAID</fullName>
+                <default>false</default>
+                <label>DL-RT-VC-Cancel-PAID</label>
+            </value>
+            <value>
+                <fullName>DL-RT-RR-Cancel-PAID</fullName>
+                <default>false</default>
+                <label>DL-RT-RR-Cancel-PAID</label>
+            </value>
+            <value>
+                <fullName>DL-RT-BLC-Cancel-PAID</fullName>
+                <default>false</default>
+                <label>DL-RT-BLC-Cancel-PAID</label>
+            </value>
+            <value>
+                <fullName>DL-RT-Cancel Fee Paid</fullName>
+                <default>false</default>
+                <label>DL-RT-Cancel Fee Paid</label>
+            </value>
+            <value>
+                <fullName>RT-Ready for Call</fullName>
+                <default>false</default>
+                <label>RT-Ready for Call</label>
+            </value>
+            <value>
+                <fullName>DL-RT-AD-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-RT-AD-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-RT-AWD-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-RT-AWD-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-RT-VC-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-RT-VC-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-RT-RR-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-RT-RR-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>DL-RT-BLC-Seek Decline</fullName>
+                <default>false</default>
+                <label>DL-RT-BLC-Seek Decline</label>
+            </value>
+            <value>
+                <fullName>RT-AD-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-AD-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>RT-AWD-Rescheduled Appointment</fullName>
+                <default>false</default>
+                <label>RT-AWD-Rescheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-1-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>ISC-Hot-1-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-2-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>ISC-Hot-2-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-3-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>ISC-Hot-3-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>ISC-Hot-4-Appointment Scheduled</fullName>
+                <default>false</default>
+                <label>ISC-Hot-4-Appointment Scheduled</label>
+            </value>
+            <value>
+                <fullName>AWD-Scheduled Appointment</fullName>
+                <default>false</default>
+                <label>AWD-Scheduled Appointment</label>
+            </value>
+            <value>
+                <fullName>DL-U-ISO-(Limited Credit History)</fullName>
+                <default>false</default>
+                <label>DL-U-ISO-(Limited Credit History)</label>
+            </value>
+            <value>
+                <fullName>DL-U-ISO-(Other)</fullName>
+                <default>false</default>
+                <label>DL-U-ISO-(Other)</label>
+            </value>
+            <value>
+                <fullName>DL-RT-AWD-Cancel-PAID</fullName>
+                <default>false</default>
+                <label>DL-RT-AWD-Cancel-PAID</label>
+            </value>
+            <value>
+                <fullName>U-ISO Underwriting in Progress</fullName>
+                <default>false</default>
+                <label>U-ISO Underwriting in Progress</label>
+            </value>
+            <value>
+                <fullName>DL-U-High Debt</fullName>
+                <default>false</default>
+                <label>DL-U-High Debt</label>
+            </value>
+            <value>
+                <fullName>Dead Lead - Test Lead</fullName>
+                <default>false</default>
+                <label>Dead Lead - Test Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
