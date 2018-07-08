@@ -1,5 +1,8 @@
 <aura:component controller="DependentPicklist" implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction">
     <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="change" value="{!v.selectedValueOfStatus}" action="{!c.onChangeValueOfStatus}" />
+    <aura:handler name="change" value="{!v.selectedValueOfAction1}" action="{!c.onChangeValueOfAction1}" />
+
     
     <aura:attribute name="statusWithAction1Map" type="Map" />
     <aura:attribute name="action1WithAction2Map" type="Map" />
@@ -12,25 +15,37 @@
     <aura:attribute name="selectedValueOfStatus" type="String" access="PRIVATE"/>
     <aura:attribute name="selectedValueOfAction1" type="String" access="PRIVATE"/>
     <aura:attribute name="selectedValueOfAction2" type="String" access="PRIVATE"/>
+    
+    <div class="slds-box slds-theme_default">
+        <div class="slds-text-align_center slds-text-title_caps"><strong>Disposition</strong> </div>
+        <div class="slds-m-top_x-small"></div>
+        <lightning:select name="status" label="Status" aura:id="status" value="{!v.selectedValueOfStatus}"  >
+            <aura:iteration items="{!v.statusOptions}" var="statusOption">
+                <option text="{!statusOption.label}" value="{!statusOption.value}" selected="{!statusOption.value == v.selectedValueOfStatus}"/>
+            </aura:iteration>
+        </lightning:select>
 
+        <lightning:select name="action1" label="Action 1" aura:id="action1" value="{!v.selectedValueOfAction1}"  disabled="{!lessthan(v.action1Options.length, 2)}">
+            <aura:iteration items="{!v.action1Options}" var="action1Option">
+                <option text="{!action1Option.label}" value="{!action1Option.value}" selected="{!action1Option.value == v.selectedValueOfAction1}"/>
+            </aura:iteration>
+        </lightning:select>
 
-    <lightning:select name="status" label="Status" aura:id="status" value="{!v.selectedValueOfStatus}" onchange="{!c.onChangeValueOfStatus}" >
-        <aura:iteration items="{!v.statusOptions}" var="statusOption">
-            <option text="{!statusOption.label}" value="{!statusOption.value}" selected="{!statusOption.selected}"/>
-        </aura:iteration>
-    </lightning:select>
-
-    <lightning:select name="action1" label="Action 1" aura:id="action1" value="{!v.selectedValueOfAction1}" onchange="{!c.onChangeValueOfAction1}">
-        <aura:iteration items="{!v.action1Options}" var="action1Option">
-            <option text="{!action1Option.label}" value="{!action1Option.value}" selected="{!action1Option.selected}"/>
-        </aura:iteration>
-    </lightning:select>
-
-    <lightning:select name="action2" label="Action 2" aura:id="action2" value="{!v.selectedValueOfAction2}">
-        <aura:iteration items="{!v.action2Options}" var="action2Option">
-            <option text="{!action2Option.label}" value="{!action2Option.value}" selected="{!action2Option.selected}"/>
-        </aura:iteration>
-    </lightning:select>
-
+        <lightning:select name="action2" label="Action 2" aura:id="action2" value="{!v.selectedValueOfAction2}" disabled="{!lessthan(v.action2Options.length, 2)}">
+            <aura:iteration items="{!v.action2Options}" var="action2Option">
+                <option text="{!action2Option.label}" value="{!action2Option.value}" selected="{!action2Option.value == v.selectedValueOfAction2}"/>
+            </aura:iteration>
+        </lightning:select>
+        <div class="slds-m-top_medium"></div>
+        
+        <div class="slds-clearfix">
+            <div class="slds-clearfix">
+            <div class="slds-float_right">
+                    <lightning:button variant="brand" label="Save" title="Save" onclick="{! c.saveHandleClick }" />
+            </div>
+            </div>
+        </div>
+        
+    </div>
 </aura:component>	
 

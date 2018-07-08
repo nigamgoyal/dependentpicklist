@@ -297,10 +297,10 @@
         {
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\DependentPicklist.cls",
             "isDirectory": false,
-            "size": 3534,
-            "modifiedTime": 1530979991304,
-            "changeTime": 1530979991304,
-            "contentHash": "289a4075bc78d28c5b9bf46556dabab5dcdd08e8",
+            "size": 3856,
+            "modifiedTime": 1531022922836,
+            "changeTime": 1531022922836,
+            "contentHash": "b53d602a5420845b1acb97bbbecbe75d2bf7790e",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -375,10 +375,10 @@
         {
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\Dispostion.cmp",
             "isDirectory": false,
-            "size": 2040,
-            "modifiedTime": 1530992026059,
-            "changeTime": 1530992026059,
-            "contentHash": "bfbe34b3103f3e981234db0e02262ff3c9b4607d",
+            "size": 2975,
+            "modifiedTime": 1531025482519,
+            "changeTime": 1531025320566,
+            "contentHash": "b97b2ebccdbff0d0536563d94b05252efd01c088",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -440,10 +440,10 @@
         {
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionController.js",
             "isDirectory": false,
-            "size": 4374,
-            "modifiedTime": 1530992139531,
-            "changeTime": 1530992139531,
-            "contentHash": "f3398e062a3851a197c176ed77db64d794355379",
+            "size": 583,
+            "modifiedTime": 1531025516661,
+            "changeTime": 1531025516661,
+            "contentHash": "3f2098680f2b9790c2639c02b2bcf473ff743e57",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -451,14 +451,14 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionHelper.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionHelper.js",
             "isDirectory": false,
-            "size": 45,
-            "modifiedTime": 1530975374857,
-            "changeTime": 1530975374857,
-            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 8362,
+            "modifiedTime": 1531028250651,
+            "changeTime": 1531028250651,
+            "contentHash": "cdc6ef6404775b94c69f1015afd6b2429edfe0d4"
         }
     ],
     [
@@ -466,10 +466,10 @@
         {
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\aura\\Dispostion\\DispostionRenderer.js",
             "isDirectory": false,
-            "size": 50,
-            "modifiedTime": 1530975374862,
-            "changeTime": 1530975374862,
-            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "size": 223,
+            "modifiedTime": 1531025537890,
+            "changeTime": 1531025537890,
+            "contentHash": "6f862c7f8c27a6e0af483af1eaa7f8c52120b6de",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -555,14 +555,14 @@
     [
         "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\Nigam Goyal\\DependentPicklist\\DependentPickList\\DependentPickList\\main\\default\\classes\\ContactTriggerHandlerTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4482,
             "modifiedTime": 1530992874903,
             "changeTime": 1530992874903,
-            "contentHash": "ed811842d1bff07e05fde17aab47e0663810b03b"
+            "contentHash": "ed811842d1bff07e05fde17aab47e0663810b03b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [

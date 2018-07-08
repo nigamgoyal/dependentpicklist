@@ -42,7 +42,7 @@ public with sharing class DependentPicklist {
             PickListUtils.PicklistDetails objDependentPicklistDetails = (PickListUtils.PicklistDetails)JSON.deserialize(entryStructure, PickListUtils.PicklistDetails.class);
             //iterate through the controlling values
             for(Integer controllingIndex=0; controllingIndex < controllingPicklistSize; controllingIndex++){    
-                if (objBitSet.fitBit(objDependentPicklistDetails.validFor,controllingIndex)){                    
+                if(objBitSet.fitBit(objDependentPicklistDetails.validFor,controllingIndex)){                    
                     //get the label
                     String controllingLabel = controllingPicklist[controllingIndex].getLabel();
                     objResults.get(controllingLabel).add(objDependentPicklistDetails.label);
@@ -52,18 +52,32 @@ public with sharing class DependentPicklist {
         return objResults;
     }
 
-    public static void getPickListValues(){
-        //URL.getSalesforceBaseUrl().toExternalForm()
-        String apiUrl = 'https://data-nosoftware-7180-dev-ed.cs58.my.salesforce.com/services/data/v43.0/ui-api/object-info/Lead/picklist-values/012000000000000AAA';
-        Http http = new Http();
-        HttpRequest req = new HttpRequest();
-        req.setHeader('Authorization', 'Bearer ' + UserInfo.getSessionID());
-        req.setHeader('Content-Type', 'application/json');
-        req.setEndpoint(apiUrl);
-        req.setMethod('GET');
-        HttpResponse res = http.send(req);
-        System.debug(res.getBody());
+    @AuraEnabled
+    public static Lead getExistingDispositionValApx(String recordId){
+        try{
+            return [SELECT id, Status__c, Action_1__c, Action_2__c 
+                    FROM Lead
+                    WHERE Id = :recordId Limit 1];
+        }catch(Exception ex){
+            throw new AuraHandledException(ex.getMessage());
+        }
     }
+
+    @AuraEnabled
+    public static String saveDispositionValuesApx(String recordId, String selectedValueOfStatus, String selectedValueOfAction1,String selectedValueOfAction2){
+         try{
+          Lead leadObj = new Lead();
+            leadObj.Id = recordId;
+            leadObj.Status__c = selectedValueOfStatus;
+            leadObj.Action_1__c = selectedValueOfAction1;
+            leadObj.Action_2__c = selectedValueOfAction2;
+        update leadObj;
+        return 'success';
+        }catch(Exception ex){
+            throw new AuraHandledException(ex.getMessage());
+        }
+    }
+
 }
 
 
